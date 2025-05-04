@@ -75,9 +75,8 @@ input{
     a{
         width: 50%;
         text-align: center;
-        background-color: dodgerblue;
-        color: white;
-        padding: 10px 25px;
-        border-radius: 20px;
+        border-bottom:5px solid dodgerblue ;
+        color: black;
+        font-size: 24px;
     }
 }
