@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CHECKER</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <div class="bmiContainer"> 
+        <div class="miniBmi">
+            <div class="bmiText">
+                <h1>BMI CHECK</h1>
+                <p>calcute your Body Mass Index easily</p> 
+                <a href="#">Get Started</a>
+                <form action="#">
+    
+                    <label for="">Weight kg: </label><br>
+                    <input type="text" value="" placeholder="Enter your Weight" id="takein1">
+                        <br>
+                    <label for="">Height cm:</label><br>
+                    <input type="text" value="" placeholder="Enter your height" id="takein2">
+    
+                </form>
+                    <button type="submit" onclick=dropInput()>Calculate BMI</button>
+            </div>
+            <div class="show">
+                <p>Your body mass index is: <span id="show"></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="bmi.js"></script>
+</html>

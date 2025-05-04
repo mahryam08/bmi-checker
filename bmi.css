@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    overflow-y: hidden;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+}
+.miniBmi{
+    margin-top: 30px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+
+}
+button{
+    padding: 10px 30px;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgb(123, 161, 123);
+}
+.show{
+    background-color: hotpink;
+    padding: 15px 15px 10px 15px ;
+    width: 200px;
+    height: 40px;
+    border-radius: 60px;
+    p{
+        font-size: medium;
+        color: black;
+    }
+}
+label{
+    color:black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+input{
+    padding: 5px 60px 5px 10px;
+    border:2px solid black;
+    /* width: 80%; */
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.bmiText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color:black;
+        font-size: 36px;
+        line-height: 22px;
+        margin-bottom:10px ;
+    }
+    p{
+        width: 50%;
+        color: rgb(92, 87, 87);
+        font-size: medium;
+     }
+    a{
+        width: 50%;
+        text-align: center;
+        background-color: dodgerblue;
+        color: white;
+        padding: 10px 25px;
+        border-radius: 20px;
+    }
+}
